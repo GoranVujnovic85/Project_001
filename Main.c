@@ -2,7 +2,11 @@
 #include<string.h>
 
 const char korisnik1[] = "Aleksandar Aleksic";
+<<<<<<< HEAD
 const char korisnik2[] = "Bojan Bojanic";
+=======
+const char korisnik2[] = "Bojan Bojanic"
+>>>>>>> 4fa1a9bfd1c64295d7f0ebeb4df3a7fca60f9a9b
 
 typedef struct
 {
