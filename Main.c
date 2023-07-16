@@ -27,8 +27,15 @@ void popuniListu(void)
 	drugi.korisnik = korisnik2;
 	drugi.next = NULL;
 
-	printf("Korisnik %s ima sledeci broj telefona: %s\n", prvi.korisnik , prvi.brojTelefona);
-	printf("Korisnik %s ima sledeci broj telefona: %s\n", drugi.korisnik , drugi.brojTelefona);
+	lista *ptr_list = &prvi;
+
+	while(ptr_list != NULL)
+	{
+
+	printf("Korisnik %s ima sledeci broj telefona: %s\n", ptr_list->korisnik , ptr_list->brojTelefona);
+	ptr_list = ptr_list->next;
+
+	}
 }
 
 void main()
