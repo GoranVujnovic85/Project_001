@@ -4,7 +4,7 @@
 const char korisnik1[] = "Aleksandar Aleksic";
 
 const char korisnik2[] = "Bojan Bojanic";
-
+// space for union //
 typedef struct
 {
 	char brojTelefona[15];
