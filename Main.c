@@ -27,6 +27,7 @@ void popuniListu(void)
 	drugi.korisnik = korisnik2;
 	drugi.next = NULL;
 
+
 	lista *ptr_list = &prvi;
 
 	while(ptr_list != NULL)
@@ -36,6 +37,7 @@ void popuniListu(void)
 	ptr_list = ptr_list->next;
 
 	}
+
 }
 
 void main()
