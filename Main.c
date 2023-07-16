@@ -26,7 +26,7 @@ void popuniListu(void)
 	strcpy(drugi.brojTelefona, "064/888-11-12");
 	drugi.korisnik = korisnik2;
 	drugi.next = NULL;
-
+/
 	printf("Korisnik %s ima sledeci broj telefona: %s\n", prvi.korisnik , prvi.brojTelefona);
 	printf("Korisnik %s ima sledeci broj telefona: %s\n", drugi.korisnik , drugi.brojTelefona);
 }
