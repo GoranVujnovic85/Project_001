@@ -2,7 +2,7 @@
 #include<string.h>
 
 const char korisnik1[] = "Aleksandar Aleksic";
-
+const char korisnik2[] = "Bojan Bojanic"
 
 typedef struct
 {
